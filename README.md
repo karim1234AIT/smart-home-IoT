@@ -113,7 +113,7 @@ Lorsque la température dépasse le seuil, un email est envoyé automatiquement 
 
 ![Wokwi Simulation](wokwi.png)
 
-🔗 **[Lancer la simulation Wokwi]((https://wokwi.com/projects/463408939470382081))**
+🔗 **[Lancer la simulation Wokwi](https://wokwi.com/projects/463408939470382081)**
 
 ---
 
