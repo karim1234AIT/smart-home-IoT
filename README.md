@@ -1,4 +1,4 @@
-# 🏠 Mini-Projet IoT — Maison Intelligente
+# 🏠 Mini-Projet IoT — Maison Intelligente-ESP32
 ### Contrôle de Température & Humidité en Temps Réel
 
 > **Réalisé par :** AIT MBAREK Karim & IDCHAOUDI Youssef  
