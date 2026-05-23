@@ -1,48 +1,22 @@
-# 🏠 Mini-Projet - Smart Home IoT — Maison Intelligente-ESP32-DHT22-ThingBoard
+# 🏠 Mini-Projet IoT — Maison Intelligente
+### Contrôle de Température & Humidité en Temps Réel
 
-## Contexte & Objectifs
-Système IoT de surveillance et contrôle de température/humidité
-en temps réel avec déclenchement automatique du ventilateur
-et alertes email.
+> **Réalisé par :** AIT MBAREK Karim & IDCHAOUDI Youssef  
+> **Encadrant :** Pr. Mohammed FARTITCHOU  
+> **École :** ENIAD — Berkane | 2025/2026  
+> **Filière :** IRSI
 
-## Architecture
-DHT22 → ESP32 → MQTT TLS → ThingsBoard → IFTTT Email
+---
 
-## Composants
-| Composant | Rôle |
-|---|---|
-| ESP32 | Microcontrôleur WiFi |
-| DHT22 | Capteur Temp & Humidité |
-| Servo-moteur | Ventilateur simulé |
-| ThingsBoard | Dashboard cloud |
-| IFTTT | Notifications Email |
+## 📋 Contexte & Objectifs
 
-## Sécurité
-- MQTT avec TLS (port 8883)
-- Token d'authentification device
-- Dashboard protégé par login
+Dans le cadre du module IoT et Objets Connectés, nous avons développé un système de maison intelligente capable de :
 
-## Instructions d'exécution
+- **Surveiller** en temps réel la température et l'humidité d'une pièce
+- **Réagir automatiquement** aux pics de température en activant un ventilateur
+- **Alerter** l'utilisateur par email en cas de dépassement du seuil critique
+- **Contrôler** le système à distance depuis un dashboard cloud
 
-### 1. Configurer les credentials
-Remplacer dans `main.py` :
-- `YOUR_DEVICE_TOKEN_HERE` → votre token ThingsBoard
-- `YOUR_IFTTT_KEY_HERE` → votre clé IFTTT
+---
 
-### 2. Lancer la simulation
-https://wokwi.com/projects/463408939470382081
-
-### 3. Configurer ThingsBoard
-- Créer un device sur ThingsBoard Cloud
-- Copier le token dans main.py
-- Créer le dashboard avec les widgets .
-
-## Réalisé par
-- AIT MBAREK Karim
-- IDCHAOUDI Youssef
-
-## Encadrant
-Pr. Mohammed FARTITCHOU
-
-## École
-ENIAD — Berkane | 2025/2026
+## 🏗️ Architecture du Système
