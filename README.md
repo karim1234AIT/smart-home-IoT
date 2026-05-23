@@ -103,7 +103,7 @@ Le flux de données suit un modèle Edge-to-Cloud strict, garantissant l'intégr
 
 ## 📧 Notification Email IFTTT
 
-![Email Alert](images/email.png)
+![Email Alert](email.png)
 
 Lorsque la température dépasse le seuil, un email est envoyé automatiquement contenant la température, l'humidité et le seuil configuré.
 
@@ -111,9 +111,9 @@ Lorsque la température dépasse le seuil, un email est envoyé automatiquement 
 
 ## 🖥️ Simulation Wokwi
 
-![Wokwi Simulation](images/wokwi.png)
+![Wokwi Simulation](wokwi.png)
 
-🔗 **[Lancer la simulation Wokwi](LIEN](https://wokwi.com/projects/463408939470382081))**
+🔗 **[Lancer la simulation Wokwi]((https://wokwi.com/projects/463408939470382081))**
 
 ---
 
