@@ -103,8 +103,8 @@ Le flux de données suit un modèle Edge-to-Cloud strict, garantissant l'intégr
 ---
 
 ## 📧 Notification Email IFTTT
+<img width="731" height="198" alt="Screenshot 2026-05-23 140613" src="https://github.com/user-attachments/assets/0e76784d-6d74-4ce0-b7ec-388abe551327" />
 
-<img width="731" height="198" alt="Screenshot 2026-05-23 140613" src="https://github.com/user-attachments/assets/b18c616d-502c-41f6-a9fa-af9dcb29c3b1" />
 
 Lorsque la température dépasse le seuil, un email est envoyé automatiquement contenant la température, l'humidité et le seuil configuré.
 
