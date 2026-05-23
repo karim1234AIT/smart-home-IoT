@@ -17,7 +17,7 @@ Dans le cadre du module IoT et Objets Connectés, nous avons développé un syst
 - **Alerter** l'utilisateur par email en cas de dépassement du seuil critique
 - **Contrôler** le système à distance depuis un dashboard cloud
 
----
+--- 
 
 ## 🏗️ Architecture Globale du Système
 
@@ -89,7 +89,8 @@ Le flux de données suit un modèle Edge-to-Cloud strict, garantissant l'intégr
 
 ## 📊 Dashboard ThingsBoard
 
-![Dashboard](dashboard.png)
+<img width="1529" height="617" alt="Screenshot 2026-05-22 151650" src="https://github.com/user-attachments/assets/61320d6e-1b28-4f19-b626-c337713fa3f3" />
+
 
 **Widgets disponibles :**
 - 🌡️ Température en temps réel
@@ -103,7 +104,7 @@ Le flux de données suit un modèle Edge-to-Cloud strict, garantissant l'intégr
 
 ## 📧 Notification Email IFTTT
 
-![Email Alert](email.png)
+<img width="731" height="198" alt="Screenshot 2026-05-23 140613" src="https://github.com/user-attachments/assets/b18c616d-502c-41f6-a9fa-af9dcb29c3b1" />
 
 Lorsque la température dépasse le seuil, un email est envoyé automatiquement contenant la température, l'humidité et le seuil configuré.
 
@@ -111,7 +112,8 @@ Lorsque la température dépasse le seuil, un email est envoyé automatiquement 
 
 ## 🖥️ Simulation Wokwi
 
-![Wokwi Simulation](wokwi.png)
+<img width="470" height="465" alt="Screenshot 2026-05-16 210344" src="https://github.com/user-attachments/assets/b9e981a1-3959-470c-a16d-a4ab400ee479" />
+
 
 🔗 **[Lancer la simulation Wokwi](https://wokwi.com/projects/463408939470382081)**
 
@@ -132,10 +134,13 @@ Lorsque la température dépasse le seuil, un email est envoyé automatiquement 
 - Créer un device sur ThingsBoard Cloud
 - Copier le token du device
 - Créer un dashboard et les widgets dedans
+<img width="483" height="447" alt="Screenshot 2026-05-10 230844" src="https://github.com/user-attachments/assets/e937ba1f-b0d2-47a6-8213-5b413a1c9c49" />
+
 
 **2. Configurer IFTTT**
 - Créer un Applet : Webhook `temp_alert` → Send Email
 - Copier votre API Key
+  <img width="810" height="502" alt="Screenshot 2026-05-16 210619" src="https://github.com/user-attachments/assets/02d7f9fa-d845-43fe-a3ac-22aa8624907e" />
 
 **3. Modifier `main.py`**
 ```python
