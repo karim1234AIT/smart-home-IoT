@@ -89,7 +89,7 @@ Le flux de données suit un modèle Edge-to-Cloud strict, garantissant l'intégr
 
 ## 📊 Dashboard ThingsBoard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](dashboard.png)
 
 **Widgets disponibles :**
 - 🌡️ Température en temps réel
